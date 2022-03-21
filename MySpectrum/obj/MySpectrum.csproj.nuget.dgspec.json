@@ -1,0 +1,54 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\Workspace\\MySpectrum\\MySpectrum\\MySpectrum.csproj": {}
+  },
+  "projects": {
+    "D:\\Workspace\\MySpectrum\\MySpectrum\\MySpectrum.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Workspace\\MySpectrum\\MySpectrum\\MySpectrum.csproj",
+        "projectName": "MySpectrum",
+        "projectPath": "D:\\Workspace\\MySpectrum\\MySpectrum\\MySpectrum.csproj",
+        "packagesPath": "C:\\Users\\gaubh\\.nuget\\packages\\",
+        "outputPath": "D:\\Workspace\\MySpectrum\\MySpectrum\\obj\\",
+        "projectStyle": "PackageReference",
+        "skipContentFileWrite": true,
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\gaubh\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "monoandroid81"
+        ],
+        "sources": {
+          "http://packagesource": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "monoandroid81": {
+            "projectReferences": {}
+          }
+        }
+      },
+      "frameworks": {
+        "monoandroid81": {
+          "dependencies": {
+            "Xamarin.Android.Support.Design": {
+              "target": "Package",
+              "version": "[28.0.0.1, )"
+            },
+            "Xamarin.Android.Support.v7.CardView": {
+              "target": "Package",
+              "version": "[28.0.0.1, )"
+            }
+          }
+        }
+      }
+    }
+  }
+}
